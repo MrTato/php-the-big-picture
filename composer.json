@@ -1,0 +1,20 @@
+{
+    "name": "bayardo/php-the-big-picture",
+    "description": "Simple application demonstrating logging and network requests",
+    "type": "project",
+    "require": {
+        "monolog/monolog": "^2.3",
+        "guzzlehttp/guzzle": "^7.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Bayardo\\PhpTheBigPicture\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Bayardo",
+            "email": "bjlslopez@gmail.com"
+        }
+    ]
+}
